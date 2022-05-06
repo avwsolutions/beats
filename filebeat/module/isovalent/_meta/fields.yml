@@ -1,0 +1,9 @@
+- key: isovalent
+  title: "isovalent"
+  description: >
+    isovalent Module
+  fields:
+    - name: isovalent
+      type: group
+      description: >
+      fields:

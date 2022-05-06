@@ -1,0 +1,5 @@
+dashboards:
+- id: Filebeat-isovalent-network_flow-Dashboard
+  file: Filebeat-isovalent-network_flow.json
+- id: Filebeat-isovalent-process_execution-Dashboard
+  file: Filebeat-isovalent-process_execution.json
