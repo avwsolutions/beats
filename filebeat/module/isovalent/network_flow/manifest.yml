@@ -3,11 +3,10 @@ module_version: 1.0
 var:
   - name: paths
     default:
-      - /example/test.log*
+      - /var/run/cilium/hubble/hubble.log
     os.darwin:
-      - /usr/local/example/test.log*
-    os.windows:
-      - c:/programdata/example/logs/test.log*
+      - /var/run/cilium/hubble/hubble.log
+    os.windows: [""]
 
-ingest_pipeline: ingest/pipeline.json
+ingest_pipeline: ingest/pipeline.yml
 input: config/network_flow.yml
