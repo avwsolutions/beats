@@ -1,9 +1,11 @@
 - key: isovalent
   title: "isovalent"
   description: >
-    isovalent Module
+    isovalent Module for parsing Hubble flow and process logs.
+  short_config: true
   fields:
     - name: isovalent
       type: group
       description: >
+        Fiels from the Isovalent log files.
       fields:

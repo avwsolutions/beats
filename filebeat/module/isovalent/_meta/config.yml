@@ -1,7 +1,15 @@
 - module: isovalent
-  # All logs
-  {fileset}:
-    enabled: true
+  # Network flow logs
+  network_flow:
+    enabled: false
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+  # Process executions logs
+  process_execution:
+    enabled: false
 
     # Set custom paths for the log files. If left empty,
     # Filebeat will choose the paths depending on your OS.
